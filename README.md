@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Sandeep S
+
+
+Roll no : 2212224230239
+
 
 
 
@@ -75,33 +77,143 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
+
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
 
 
+```
+Mov AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
+```
 
 ## Output  
+
+
+<img width="1230" height="700" alt="image" src="https://github.com/user-attachments/assets/7f4452f6-1131-45e3-830c-f85c2efc84bc" />
+
  
 ## Subtraction   of 8 bit numbers  ALP 
+
+```
+Mov AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+```
+
+
  
 ## Output  
+
+<img width="1215" height="811" alt="image" src="https://github.com/user-attachments/assets/00760c44-39e3-48a5-a6c3-84273b307f53" />
+
+
+
 ## Multiplication alp 
+
+```
+org 100h
+Mov AL,74H
+MOV BL,69H
+MUL BL
+HLT
+ret
+```
+
+
  ## Output  
+
+
+ <img width="1181" height="695" alt="image" src="https://github.com/user-attachments/assets/2b59e8a2-16ab-404a-8e24-54bbbf889f78" />
+
 
 
 ## Division alp 
 
+
+
+```
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
+
+
+
 ## Output  
 
 
+
+<img width="1076" height="657" alt="image" src="https://github.com/user-attachments/assets/727037ac-42ff-4504-a306-41ad0cac42dd" />
+
+
+## And of 8 bit numbers ALP
+
+
+
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+
+## Output
+
+
+<img width="1247" height="734" alt="image" src="https://github.com/user-attachments/assets/99c1e6d9-4a4a-45ca-b90b-e50e416b79b1" />
+
+
+
+## OR of 8 bit numbers ALP
+
+```
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+
+## Output
+
+<img width="1397" height="735" alt="image" src="https://github.com/user-attachments/assets/a602ef80-2236-4885-ac45-c7da5c739809" />
+
+
+## NOT of 8 bit number ALP
+
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+
+## Output
+
+<img width="1188" height="770" alt="image" src="https://github.com/user-attachments/assets/94395a54-8144-445b-b8cf-c52f86ae9393" />
+
+
+
+## XOR of 8 bit number ALP
+
+
+```
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+
+
+<img width="1177" height="752" alt="image" src="https://github.com/user-attachments/assets/57dcb78a-b599-44ef-87cc-85a1cd6ed9d3" />
+
+
 ## Result :
- 
 
-
-
-
-
-
-
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
